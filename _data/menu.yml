@@ -48,6 +48,14 @@
       url: /IT-systems/hwc18/#quick-start
     text: OSHA
     url: /IT-systems/hwc18
+  - source: generated
+    subitems:
+    - text: Credits
+      url: !!python/unicode '/IT-systems/osha.whoswho/#credits'
+    - text: License
+      url: !!python/unicode '/IT-systems/osha.whoswho/#license'
+    text: Package Information
+    url: !!python/unicode '/IT-systems/osha.whoswho'
   text: IT-systems
   url: /IT-systems
 - text: Development guidelines
