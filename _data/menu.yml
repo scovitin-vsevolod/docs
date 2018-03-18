@@ -56,6 +56,9 @@
       url: !!python/unicode '/IT-systems/osha.whoswho/#license'
     text: Package Information
     url: !!python/unicode '/IT-systems/osha.whoswho'
+  - source: generated
+    text: osha.hwctheme
+    url: !!python/unicode '/IT-systems/osha.hwctheme'
   text: IT-systems
   url: /IT-systems
 - text: Development guidelines
