@@ -42,6 +42,12 @@
     url: !!python/unicode '/IT-systems/osha.quizzes'
   - source: generated
     subitems:
+    - text: Known issues
+      url: !!python/unicode '/IT-systems/drupal.tmgmt/#known-issues'
+    text: EU-OSHA Translation management demo
+    url: !!python/unicode '/IT-systems/drupal.tmgmt'
+  - source: generated
+    subitems:
     - text: Pre-requisites
       url: !!python/unicode '/IT-systems/napo/#pre-requisites'
     - text: Quick start
