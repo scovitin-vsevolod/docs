@@ -71,6 +71,9 @@
     text: Package Information
     url: !!python/unicode '/IT-systems/osha.whoswho'
   - source: generated
+    text: URL
+    url: !!python/unicode '/IT-systems/hwc-splashpage'
+  - source: generated
     text: osha.hwctheme
     url: !!python/unicode '/IT-systems/osha.hwctheme'
   text: IT-systems
