@@ -1,10 +1,10 @@
 ---
-title: EEA & Eionet documentation hub
+title: EU-OSHA documentation hub
 ---
 
-# EEA & Eionet documentation hub
+# EU-OSHA documentation hub
 
-Source for documentation at https://eea.github.io/docs.
+Source for documentation at https://eu-osha.github.io/docs.
 
 ## To update existing content
 
@@ -12,16 +12,12 @@ Use the link `Edit this page` on the bottom of each page to find the right file 
 
 ## To add new content
 
-Here in the repository (https://github.com/eea/docs/tree/gh-pages),
+Here in the repository (https://github.com/eu-osha/docs/tree/gh-pages),
 
 1. add a new folder in the format `My-new-folder-name`
 2. add a new file to the folder named `index.md`
-3. update https://github.com/eea/docs/blob/gh-pages/_data/menu.yml accordingly. Each menu item is described by two lines - first line is the menu title, second line is the URL to the folder just created.
+3. update https://github.com/eu-osha/docs/blob/gh-pages/_data/menu.yml accordingly. Each menu item is described by two lines - first line is the menu title, second line is the URL to the folder just created.
 
 ## To update documentation within "IT-systems" section
 
-**IT-systems** documentation is generated automatically based on documentation found on each github repo within https://github.com/eea. Thus, in order to update docs for one section under **IT-systems** all you have to do is to update github repo README and wait for the documentation to be regenerated. For example, in order to update documentation for **EEA Faceted Navigation** you will need to edit https://github.com/eea/eea.facetednavigation/blob/master/README.rst
-
-Documentation within **IT-systems** section is updated nightly by this [Jenkins job](http://ci.eionet.europa.eu/view/Plone/view/documentation/job/eea-markdown-docs). 
-If you don't want a github repo to be present within documentation, then you can edit the above Jenkins job and add the repo to the `BLACKLIST`-ed repos.
-Also, you can mannually run this Jenkins job if you need documentation updated before the nightly build.
+**IT-systems** documentation is generated automatically based on documentation found on each github repo within https://github.com/eu-osha. Thus, in order to update docs for one section under **IT-systems** all you have to do is to update github repo README and wait for the documentation to be regenerated. For example, in order to update documentation for ** EU-OSHA - Corporate - Drupal website ** you will need to edit https://github.com/eu-osha/osha-website/blob/master/readme.md
