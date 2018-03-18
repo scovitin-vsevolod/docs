@@ -80,6 +80,30 @@
     text: URL
     url: !!python/unicode '/IT-systems/hwc-splashpage'
   - source: generated
+    subitems:
+    - text: Pre-requisites
+      url: !!python/unicode '/IT-systems/VeSafe/#pre-requisites'
+    - subitems:
+      - text: Setup database
+        url: !!python/unicode '/IT-systems/VeSafe/#setup-database'
+      - text: Prepare drush
+        url: !!python/unicode '/IT-systems/VeSafe/#prepare-drush'
+      - text: Setup Apache VH
+        url: !!python/unicode '/IT-systems/VeSafe/#setup-apache-vh'
+      - text: Project setup
+        url: !!python/unicode '/IT-systems/VeSafe/#project-setup'
+      - text: Solr installation
+        url: !!python/unicode '/IT-systems/VeSafe/#solr-installation'
+      text: Project setup
+      url: !!python/unicode '/IT-systems/VeSafe/#project-setup'
+    - text: Repository Layout## Breakdown for what each directory/file is used for.
+        See
+      url: !!python/unicode '/IT-systems/VeSafe/#repository-layout##-breakdown-for-what-each-directory/file-is-used-for.-see'
+    - text: Branches
+      url: !!python/unicode '/IT-systems/VeSafe/#branches'
+    text: VeSafe
+    url: !!python/unicode '/IT-systems/VeSafe'
+  - source: generated
     text: osha.hwctheme
     url: !!python/unicode '/IT-systems/osha.hwctheme'
   text: IT-systems
