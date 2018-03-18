@@ -51,11 +51,11 @@
   - source: generated
     subitems:
     - text: Pre-requisites
-      url: !!python/unicode '/IT-systems/osha-website/#pre-requisites'
+      url: !!python/unicode '/IT-systems/campaigns/#pre-requisites'
     - text: Quick start
-      url: !!python/unicode '/IT-systems/osha-website/#quick-start'
+      url: !!python/unicode '/IT-systems/campaigns/#quick-start'
     text: OSHA
-    url: !!python/unicode '/IT-systems/osha-website'
+    url: !!python/unicode '/IT-systems/campaigns'
   - source: generated
     subitems:
     - text: Setup
