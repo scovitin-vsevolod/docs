@@ -9,6 +9,7 @@ title: IT-systems
 * Build application forms with Plone
 * Build quizzes with Plone
 * OSHA
+* OiRA Statistical Reports
 * Package Information
 * osha.hwctheme
 * zptlint

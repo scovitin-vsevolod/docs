@@ -50,6 +50,12 @@
     url: !!python/unicode '/IT-systems/osha-website'
   - source: generated
     subitems:
+    - text: Setup
+      url: !!python/unicode '/IT-systems/oira.reports/#setup'
+    text: OiRA Statistical Reports
+    url: !!python/unicode '/IT-systems/oira.reports'
+  - source: generated
+    subitems:
     - text: Credits
       url: !!python/unicode '/IT-systems/osha.whoswho/#credits'
     - text: License
