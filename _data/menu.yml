@@ -17,6 +17,16 @@
 - subitems:
   - source: generated
     subitems:
+    - text: Installation
+      url: !!python/unicode '/IT-systems/osha.quizzes/#installation'
+    - text: Requirements
+      url: !!python/unicode '/IT-systems/osha.quizzes/#requirements'
+    - text: Usage
+      url: !!python/unicode '/IT-systems/osha.quizzes/#usage'
+    text: Build quizzes with Plone
+    url: !!python/unicode '/IT-systems/osha.quizzes'
+  - source: generated
+    subitems:
     - text: Pre-requisites
       url: /IT-systems/hwc18/#pre-requisites
     - text: Quick start
