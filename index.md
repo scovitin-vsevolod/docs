@@ -1,31 +1,21 @@
 ---
-title: Welcome to the EEA and Eionet documentation hub
+title: Welcome to the EU-OSHA documentation hub
 ---
 
 # Welcome!
 
 ## About us
 
-### EEA
+### EU-OSHA
 
-The European Environment Agency (EEA) is an agency of the European Union. Our task is to provide sound, independent information on the environment. We are a major information source for those involved in developing, adopting, implementing and evaluating environmental policy, and also the general public.
-
-### Eionet
-
-Eionet is a partnership network of the European Environment Agency (EEA) and its member and cooperating countries. It consists of the EEA itself, six European Topic Centres (ETCs) and a network of around 1000 experts from 39 countries in over 350 national environment agencies and other bodies dealing with environmental information. The Eionet partnership is crucial to the EEA in supporting the collection and organisation of data through Reportnet and the development and dissemination of information.
+Some intro text here.
 
 
 ## What is covered here
 
-### EEA CMS platform
+### Drupal systems
 
-### Eionet extranet
-
-Eionet is a partnership network of the European Environment Agency (EEA) and its member and cooperating countries involving approximately 1000 experts and more than 350 national institutions. The IT of Eionet includes the Eionet portal, the Forum, the Site Directory and several other smaller applications.
-
-### Reportnet system
-
-Reportnet is Eionet's infrastructure for reporting environmental data to EEA and in part for DG Environment. It consists of a set of inter-related tools which together supports the full reporting workflow.
+Text text.
 
 ### IT-systems
 
