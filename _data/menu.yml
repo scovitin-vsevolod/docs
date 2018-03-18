@@ -57,11 +57,11 @@
   - source: generated
     subitems:
     - text: Pre-requisites
-      url: !!python/unicode '/IT-systems/campaigns/#pre-requisites'
+      url: !!python/unicode '/IT-systems/oira-website/#pre-requisites'
     - text: Quick start
-      url: !!python/unicode '/IT-systems/campaigns/#quick-start'
+      url: !!python/unicode '/IT-systems/oira-website/#quick-start'
     text: OSHA
-    url: !!python/unicode '/IT-systems/campaigns'
+    url: !!python/unicode '/IT-systems/oira-website'
   - source: generated
     subitems:
     - text: Setup
