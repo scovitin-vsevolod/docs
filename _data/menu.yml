@@ -41,6 +41,9 @@
     text: Build quizzes with Plone
     url: !!python/unicode '/IT-systems/osha.quizzes'
   - source: generated
+    text: Buildout for EU-OSHA corporate
+    url: !!python/unicode '/IT-systems/archive.osha.corporate.buildout'
+  - source: generated
     subitems:
     - text: Known issues
       url: !!python/unicode '/IT-systems/drupal.tmgmt/#known-issues'
