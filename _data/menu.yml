@@ -43,6 +43,14 @@
   - source: generated
     subitems:
     - text: Pre-requisites
+      url: !!python/unicode '/IT-systems/napo/#pre-requisites'
+    - text: Quick start
+      url: !!python/unicode '/IT-systems/napo/#quick-start'
+    text: NAPO
+    url: !!python/unicode '/IT-systems/napo'
+  - source: generated
+    subitems:
+    - text: Pre-requisites
       url: !!python/unicode '/IT-systems/osha-website/#pre-requisites'
     - text: Quick start
       url: !!python/unicode '/IT-systems/osha-website/#quick-start'
