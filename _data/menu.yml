@@ -17,6 +17,21 @@
 - subitems:
   - source: generated
     subitems:
+    - subitems:
+      - text: Importing HR Application Form
+        url: !!python/unicode '/IT-systems/Corporate-Vacancies/#importing-hr-application-form'
+      - text: Setting up RDB
+        url: !!python/unicode '/IT-systems/Corporate-Vacancies/#setting-up-rdb'
+      text: Installation
+      url: !!python/unicode '/IT-systems/Corporate-Vacancies/#installation'
+    - text: Requirements
+      url: !!python/unicode '/IT-systems/Corporate-Vacancies/#requirements'
+    - text: Usage
+      url: !!python/unicode '/IT-systems/Corporate-Vacancies/#usage'
+    text: Build application forms with Plone
+    url: !!python/unicode '/IT-systems/Corporate-Vacancies'
+  - source: generated
+    subitems:
     - text: Installation
       url: !!python/unicode '/IT-systems/osha.quizzes/#installation'
     - text: Requirements
