@@ -60,11 +60,11 @@
   - source: generated
     subitems:
     - text: Pre-requisites
-      url: !!python/unicode '/IT-systems/hwc18/#pre-requisites'
+      url: /IT-systems/hwc18/#pre-requisites
     - text: Quick start
-      url: !!python/unicode '/IT-systems/hwc18/#quick-start'
+      url: /IT-systems/hwc18/#quick-start
     text: OSHA
-    url: !!python/unicode '/IT-systems/hwc18'
+    url: /IT-systems/hwc18
   - source: generated
     subitems:
     - text: Setup
