@@ -37,6 +37,9 @@ directories.
     * Drupal root directory
     * [drush](https://github.com/EU-OSHA/osha-website/tree/master/drush)
     * Contains project specific drush commands, aliases, and configurations.
+
+BR
+
     * [results](https://github.com/EU-OSHA/osha-website/tree/master/results)
     * This directory is just used to export test results to. A good example of this is when running drush test-run with the --xml option. You can export the xml to this directory for parsing by external tools.
     * [scripts](https://github.com/EU-OSHA/osha-website/tree/master/scripts)
@@ -63,6 +66,11 @@ Name | Description
 ---|---  
 osha | Article, DVS survey, Page, Twitter Tweet Feed, Twitter User Profile and
 Webform  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
 osha_blog | Blog articles content type  
 osha_calls | Calls for contractors  
 osha_dangerous_substances | Dangerous substances  
@@ -75,6 +83,11 @@ Name | Description
 ---|---  
 osha | Article, DVS survey, Page, Twitter Tweet Feed, Twitter User Profile and
 Webform  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
 osha_blog | Blog articles content type  
 osha_calls | Calls for contractors  
 osha_dangerous_substances | Dangerous substances  
@@ -93,11 +106,6 @@ osha_infographics | Infographics
 osha_job_vacancies | Job vacancies  
 osha_legislation | Directive and Guideline  
 osha_musculoskeletal_disorders | Musculoskeletal Disorders  
-  
-####  Content types modules
-
-Name | Description  
----|---  
 osha_news | News  
 osha_newsletter | Newsletter article  
 osha_note_to_editor | Notes to editor  
@@ -119,7 +127,8 @@ osha_wiki | Wiki
 Name | Description  
 ---|---  
 osha_breadcrumbs | Breadcrumbs rules  
-osha_authentication | LDAP authentication support  
+osha_authentication | LDAP authentication  
+support  
 osha_blocks | Content Blocks  
 osha_content | No Translation functionality  
 osha_menu | Main and Footer Menus  
