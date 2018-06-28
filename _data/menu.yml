@@ -126,10 +126,10 @@
         url: /IT-systems/test_md/#content-types-modules
       - text: Helper modules
         url: /IT-systems/test_md/#helper-modules
-      text: Organisation of repository
-      url: /IT-systems/test_md/#organisation-of-repository
-    - text: 3.Potentially reusable modules
-      url: /IT-systems/test_md/#3.potentially-reusable-modules
+      text: 1 Organisation of repository
+      url: /IT-systems/test_md/#1-organisation-of-repository
+    - text: 3 Potentially reusable modules
+      url: /IT-systems/test_md/#3-potentially-reusable-modules
     - subitems:
       - text: Branches
         url: /IT-systems/test_md/#branches

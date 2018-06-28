@@ -24,7 +24,7 @@ HWC | Healthy Workplaces Campaign
 CMW | Content Management Workflow  
 HWC18 | Healthy Workplaces Campaign (2018-2019)  
   
-##  Organisation of repository
+##  1 Organisation of repository
 
   * ###  Repository Layout
 
@@ -124,12 +124,10 @@ osha_alert_service | Alert Service
 osha_slideshare | Slideshare field that allows you to add a slidehare link to
 a content type  
 
-##  3.Potentially reusable modules
+##  3 Potentially reusable modules
 
-    
-    
-    It is possible to use module from content type and helper groups in other projects only
-    
+It is possible to use module from content type and helper groups in other
+projects
 
 ##  4 Technical strategy and chosen solutions
 
