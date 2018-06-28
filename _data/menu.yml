@@ -116,6 +116,50 @@
     text: Package Information
     url: !!python/unicode '/IT-systems/osha.whoswho'
   - source: generated
+    subitems:
+    - text: Definitions, acronyms and abbreviations
+      url: /IT-systems/test_md/#definitions,-acronyms-and-abbreviations
+    - subitems:
+      - text: Base modules
+        url: /IT-systems/test_md/#base-modules
+      - text: Content types modules
+        url: /IT-systems/test_md/#content-types-modules
+      - text: Helper modules
+        url: /IT-systems/test_md/#helper-modules
+      text: Organisation of repository
+      url: /IT-systems/test_md/#organisation-of-repository
+    - text: 3.Potentially reusable modules
+      url: /IT-systems/test_md/#3.potentially-reusable-modules
+    - subitems:
+      - text: Branches
+        url: /IT-systems/test_md/#branches
+      - text: 'Release approach:'
+        url: '/IT-systems/test_md/#release-approach:'
+      - text: User roles involved in the "Content Management" workflow.
+        url: /IT-systems/test_md/#user-roles-involved-in-the-"content-management"-workflow.
+      - text: 'Content review statuses:'
+        url: '/IT-systems/test_md/#content-review-statuses:'
+      - text: Workflow
+        url: /IT-systems/test_md/#workflow
+      - text: Brief steps description
+        url: /IT-systems/test_md/#brief-steps-description
+      - text: 'Export content:'
+        url: '/IT-systems/test_md/#export-content:'
+      - text: 'Import content:'
+        url: '/IT-systems/test_md/#import-content:'
+      - text: Pre-requisites
+        url: /IT-systems/test_md/#pre-requisites
+      - text: Quick start
+        url: /IT-systems/test_md/#quick-start
+      - text: Updating an existing instance
+        url: /IT-systems/test_md/#updating-an-existing-instance
+      - text: Running tests
+        url: /IT-systems/test_md/#running-tests
+      text: 4 Technical strategy and chosen solutions
+      url: /IT-systems/test_md/#4-technical-strategy-and-chosen-solutions
+    text: TEST
+    url: /IT-systems/test_md
+  - source: generated
     text: URL
     url: !!python/unicode '/IT-systems/hwc-splashpage'
   - source: generated
