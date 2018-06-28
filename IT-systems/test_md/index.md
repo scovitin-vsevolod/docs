@@ -28,6 +28,9 @@ zzz
 
 Length | Description  
 ---|---  
+70 | zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzzzzz  
+Length | Description  
+---|---  
 84 | zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz
 zzzzzzzzz  
   
@@ -35,20 +38,26 @@ zzz
 
 Length | Description  
 ---|---  
-70 | zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzzzzz  
+80 | zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz
+zzzzz  
+Length | Description  
+---|---  
+80 | zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz zzzzzz  
+zzzzzz zzzzzz zzzzzz zzzzzz zzzzz  
   
 ##  1 Organisation of repository
 
   * ###  Repository Layout
 
-    * ####  Breakdown for what each directory/file is used for. See also readme inside directories.
+Breakdown for what each directory/file is used for. See also readme inside
+directories.
 
-      * [conf](https://github.com/EU-OSHA/osha-website/tree/master/conf)
-      * Project specific configuration files
-      * [docroot](https://github.com/EU-OSHA/osha-website/tree/master/docroot)
-      * Drupal root directory
-      * [drush](https://github.com/EU-OSHA/osha-website/tree/master/drush)
-      * Contains project specific drush commands, aliases, and configurations.
+  * [conf](https://github.com/EU-OSHA/osha-website/tree/master/conf)
+  * Project specific configuration files
+  * [docroot](https://github.com/EU-OSHA/osha-website/tree/master/docroot)
+  * Drupal root directory
+  * [drush](https://github.com/EU-OSHA/osha-website/tree/master/drush)
+  * Contains project specific drush commands, aliases, and configurations.
 
 Breakdown for what each directory/file is used for. See also readme inside
 directories.
