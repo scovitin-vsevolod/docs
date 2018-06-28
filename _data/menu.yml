@@ -60,11 +60,11 @@
   - source: generated
     subitems:
     - text: Pre-requisites
-      url: /IT-systems/oira-website/#pre-requisites
+      url: /IT-systems/osha-website/#pre-requisites
     - text: Quick start
-      url: /IT-systems/oira-website/#quick-start
+      url: /IT-systems/osha-website/#quick-start
     text: OSHA
-    url: /IT-systems/oira-website
+    url: /IT-systems/osha-website
   - source: generated
     subitems:
     - text: Setup
