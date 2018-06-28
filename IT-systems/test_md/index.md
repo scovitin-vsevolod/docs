@@ -58,7 +58,8 @@ directories.
   * [docroot](https://github.com/EU-OSHA/osha-website/tree/master/docroot)
   * Drupal root directory
   * [drush](https://github.com/EU-OSHA/osha-website/tree/master/drush)
-  * Contains project specific drush commands, aliases, and configurations.
+  * Contains project specific drush commands,   
+aliases, and configurations.
 
 BR
 
