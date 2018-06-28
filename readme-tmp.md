@@ -118,7 +118,7 @@ HWC18| Healthy Workplaces Campaign (2018-2019)
     
 
 ## 3. Potentially reusable modules
-    Its possible to use in other projects module from content types and helper groups
+    It is possible to use module from content type and helper groups in other projects only
      
 
 ## 4. Technical strategy and chosen solutions
@@ -137,14 +137,14 @@ HWC18| Healthy Workplaces Campaign (2018-2019)
     
    #### Release approach:
     
-    * We have 2 weeks based (first week stating deploy and second week production deploy) release model.
-    * New functionality adding in develop branch.
-    * After testing develop branch merging into release branch using GitHub `Pull requests` and creating new release using GitHub `Releases`
+    * We have 2 weeks based (first week staging deploy and second week production deploy) release model.
+    * New functionality will be added in develop branch.
+    * After testing develop branch will be merged into release branch using GitHub `Pull requests` and created new release using GitHub `Releases`
     * New staging release recommended tag format: `YYYY-mm-dd_staging`. Title format: Jira ticket id + staging release.   
-    * New tag will used in staging deployment.    
+    * New tag will be used in staging deployment.    
     * In a week we merge release changes into master branch. The same GitHub `Pull requests` and GitHub `Releases`
     * New production release recommended tag format: `YYYY-mm-dd_prod`. Title format: Jira ticket id + prod release.   
-    * New tag will used in production deployment.    
+    * New tag will be used in production deployment.    
      
 * ### Multilinguality
  (there is a lot of relevant information to be mentioned here)
