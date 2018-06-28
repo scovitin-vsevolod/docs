@@ -71,7 +71,8 @@ Webform
 
 Name | Description  
 ---|---  
-osha_blog | Blog articles content type  
+osha_blog | Blog articles  
+content type  
 osha_calls | Calls for contractors  
 osha_dangerous_substances | Dangerous substances  
 osha_eguide | eGuide  
@@ -88,7 +89,14 @@ Webform
 
 Name | Description  
 ---|---  
-osha_blog | Blog articles content type  
+osha | Article, DVS survey, Page, Twitter Tweet Feed, Twitter User Profile  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
+osha_blog | Blog articles  
+content type  
 osha_calls | Calls for contractors  
 osha_dangerous_substances | Dangerous substances  
 osha_eguide | eGuide  
