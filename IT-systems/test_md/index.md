@@ -57,22 +57,6 @@ directories.
 
 **All custom modules divided into 3 groups:**
 
-####  Base modules
-
-Name | Description  
----|---  
-osha_breadcrumbs | Breadcrumbs rules  
-osha_authentication | LDAP authentication support  
-osha_blocks | Content Blocks  
-osha_content | No Translation functionality  
-osha_menu | Main and Footer Menus  
-osha_migration | Migrate data from the old website  
-osha_search | Search customizations  
-osha_sitemap | Sitemap for xmlsitemap  
-osha_sites_migration | Migrating content from other OSHA websites  
-osha_taxonomies | Project Specific Taxonomies  
-osha_workflow | Custom Workflow Moderation  
-  
 ####  Content types modules
 
 Name | Description  
@@ -103,6 +87,22 @@ Presentations and Youtube
 osha_seminar | Seminar  
 osha_wiki | Wiki  
   
+####  Base modules
+
+Name | Description  
+---|---  
+osha_breadcrumbs | Breadcrumbs rules  
+osha_authentication | LDAP authentication support  
+osha_blocks | Content Blocks  
+osha_content | No Translation functionality  
+osha_menu | Main and Footer Menus  
+osha_migration | Migrate data from the old website  
+osha_search | Search customizations  
+osha_sitemap | Sitemap for xmlsitemap  
+osha_sites_migration | Migrating content from other OSHA websites  
+osha_taxonomies | Project Specific Taxonomies  
+osha_workflow | Custom Workflow Moderation  
+  
 ####  Helper modules
 
 Name | Description  
@@ -124,12 +124,12 @@ osha_alert_service | Alert Service
 osha_slideshare | Slideshare field that allows you to add a slidehare link to
 a content type  
 
-##  3 Potentially reusable modules
+##  3 zPotentially reusable modules
 
 It is possible to use module from content type and helper groups in other
 projects
 
-##  4 Technical strategy and chosen solutions
+##  4 zTechnical strategy and chosen solutions
 
   * ###  General versioning and release approach
 
