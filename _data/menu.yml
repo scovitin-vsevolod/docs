@@ -122,14 +122,22 @@
     - subitems:
       - text: Content types modules
         url: /IT-systems/test_md/#content-types-modules
+      - text: Content types modules
+        url: /IT-systems/test_md/#content-types-modules
+      - text: Content types modules
+        url: /IT-systems/test_md/#content-types-modules
+      - text: Content types modules
+        url: /IT-systems/test_md/#content-types-modules
+      - text: Content types modules
+        url: /IT-systems/test_md/#content-types-modules
       - text: Base modules
         url: /IT-systems/test_md/#base-modules
       - text: Helper modules
         url: /IT-systems/test_md/#helper-modules
       text: 1 Organisation of repository
       url: /IT-systems/test_md/#1-organisation-of-repository
-    - text: 3 zPotentially reusable modules
-      url: /IT-systems/test_md/#3-zpotentially-reusable-modules
+    - text: APotentially reusable modules
+      url: /IT-systems/test_md/#apotentially-reusable-modules
     - subitems:
       - text: Branches
         url: /IT-systems/test_md/#branches
@@ -155,7 +163,7 @@
         url: /IT-systems/test_md/#updating-an-existing-instance
       - text: Running tests
         url: /IT-systems/test_md/#running-tests
-      text: 4 zTechnical strategy and chosen solutions
+      text: 4 ZTechnical strategy and chosen solutions
       url: /IT-systems/test_md/#4-ztechnical-strategy-and-chosen-solutions
     text: TEST
     url: /IT-systems/test_md

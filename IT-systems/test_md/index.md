@@ -68,7 +68,24 @@ osha_calls | Calls for contractors
 osha_dangerous_substances | Dangerous substances  
 osha_eguide | eGuide  
 osha_events | Events  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
+osha | Article, DVS survey, Page, Twitter Tweet Feed, Twitter User Profile and
+Webform  
+osha_blog | Blog articles content type  
+osha_calls | Calls for contractors  
+osha_dangerous_substances | Dangerous substances  
+osha_eguide | eGuide  
+osha_events | Events  
 osha_flickr | Flickr gallery  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
 osha_fop_page | Focal Point Page  
 osha_highlight | News  
 osha_homepage | Homepage banners  
@@ -76,11 +93,21 @@ osha_infographics | Infographics
 osha_job_vacancies | Job vacancies  
 osha_legislation | Directive and Guideline  
 osha_musculoskeletal_disorders | Musculoskeletal Disorders  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
 osha_news | News  
 osha_newsletter | Newsletter article  
 osha_note_to_editor | Notes to editor  
 osha_press_contact | Press Contact  
 osha_press_release | Press Release  
+  
+####  Content types modules
+
+Name | Description  
+---|---  
 osha_publication | Publication  
 osha_resources | External URL, Internal files, Flickr photos, Slideshare
 Presentations and Youtube  
@@ -124,12 +151,12 @@ osha_alert_service | Alert Service
 osha_slideshare | Slideshare field that allows you to add a slidehare link to
 a content type  
 
-##  3 zPotentially reusable modules
+##  APotentially reusable modules
 
 It is possible to use module from content type and helper groups in other
 projects
 
-##  4 zTechnical strategy and chosen solutions
+##  4 ZTechnical strategy and chosen solutions
 
   * ###  General versioning and release approach
 
