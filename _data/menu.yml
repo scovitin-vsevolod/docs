@@ -52,11 +52,11 @@
   - source: generated
     subitems:
     - text: Pre-requisites
-      url: !!python/unicode '/IT-systems/napo/#pre-requisites'
+      url: /IT-systems/napo/#pre-requisites
     - text: Quick start
-      url: !!python/unicode '/IT-systems/napo/#quick-start'
+      url: /IT-systems/napo/#quick-start
     text: NAPO
-    url: !!python/unicode '/IT-systems/napo'
+    url: /IT-systems/napo
   - source: generated
     subitems:
     - text: Pre-requisites
