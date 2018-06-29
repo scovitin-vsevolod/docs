@@ -7,12 +7,6 @@ TEST
 <small class="github">[test_md](https://github.com/scovitin-vsevolod/test_md)</small>
 
 
-Group                     | Domain          | First Appearance
----|---|---  
-ShinRa                    | Mako Reactors long text  | FFVII
-long text check
-long text check | MogNet          | FFIII
-
 test - text
 
 Group                     | Domain          | First Appearance
@@ -79,7 +73,7 @@ text 1
 
 text
 
-<table><tr><td>aaaa<td></tr></table>
+<table><thead><tr><td>aaaa<td></tr></thead></table>
 
 text
 
@@ -93,5 +87,7 @@ text
 <td>ccc<td>
 <td>ddd<td>
 </tr></table>
+
+
 
 [Edit this page](https://github.com/scovitin-vsevolod/test_md/edit/master/readme.md)
