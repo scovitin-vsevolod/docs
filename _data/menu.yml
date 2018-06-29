@@ -68,12 +68,12 @@
         url: /IT-systems/test_md/#content-types-modules
       - text: Helper modules
         url: /IT-systems/test_md/#helper-modules
-      text: 1. Organisation of repository
-      url: /IT-systems/test_md/#1.-organisation-of-repository
-    - text: 2. Major features
-      url: /IT-systems/test_md/#2.-major-features
-    - text: 3. Potentially reusable modules
-      url: /IT-systems/test_md/#3.-potentially-reusable-modules
+      text: Organisation of repository
+      url: /IT-systems/test_md/#organisation-of-repository
+    - text: Major features
+      url: /IT-systems/test_md/#major-features
+    - text: Potentially reusable modules
+      url: /IT-systems/test_md/#potentially-reusable-modules
     - subitems:
       - text: Branches
         url: /IT-systems/test_md/#branches
@@ -89,8 +89,8 @@
         url: '/IT-systems/test_md/#export-content:'
       - text: 'Import content:'
         url: '/IT-systems/test_md/#import-content:'
-      text: 4. Technical strategy and chosen solutions
-      url: /IT-systems/test_md/#4.-technical-strategy-and-chosen-solutions
+      text: Technical strategy and chosen solutions
+      url: /IT-systems/test_md/#technical-strategy-and-chosen-solutions
     text: OSHA
     url: /IT-systems/test_md
   - source: generated
