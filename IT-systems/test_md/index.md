@@ -11,8 +11,8 @@ Group | Domain | First Appearance
 ShinRa | Mako Reactors long text | FFVII  
 long text check long text check | MogNet | FFIII  
 Vana'diel  
-Chocobo Society | Chocobo RaisingChocobo  
-RaisingChocobo RaisingChocobo Raising | FFXI:TOAU  
+Chocobo Society | Text1Text1 Text2Text2  
+Text3Text3 Text4Text4 Text5Text5 | FFXI:TOAU  
 Group | Domain | First Appearance  
 ---|---|---  
 TEXT | Mako Reactors | FFVII  
