@@ -12,6 +12,7 @@ Build scripts and source code for the OSHA project
 [![Code Climate](https://codeclimate.com/github/EU-OSHA/osha-website/badges/gpa.svg)](https://codeclimate.com/github/EU-OSHA/osha-website)
 
 ### Definitions, acronyms and abbreviations
+
 Term	| Description
 --------|--------------------------------------------------
 EU-OSHA	| European Agency for Safety and Health at Work
@@ -214,13 +215,14 @@ Summary:
 
 Status	| Description
 --------|------------
-    Draft	| Content with this status can be modified by its author (Editor), Review Manager user or by the Administrator. This is the initial status for each content introduced in the system, and the previous status to 'FinalDraft'.
-    FinalDraft	| The Editor in charge of the content, after modify it as considers, changes the status to 'FinalDraft'. The 'Review Manager' could then review it.
-    ToBeReviewed | Content with this status is ready to be reviewed by the Project Manager. Only the 'Review Manager' and the 'Administrator' have permissions to change the status of content to 'ToBeReviewed'.
-    ToBeApproved | Content with this status is ready to be reviewed by the Heads of Unit and/or the director, in the order specified by the Review Manager. As final step, the con-tent results 'Approved' or 'Rejected'.
-    Rejected | Rejected contents must be checked by the Project Manager. He/she decides if she can implement the required suggestions or if the changes must be implemented or reviewed by the Editor. In this case, the content status is set to 'FinalDraft', and the webteam liaises with the editor. <br/>Only the 'Final Approver' has permission to change the status of content to 'Rejected'.
-    Approved | The contents with 'Approved' status are ready to be reviewed by the Project Manager again. The PM decides if the content can go on the workflow (in this case the state of the content is 'Ready-ToPublish'). <br/>Only the 'Final Approver' and the 'Administrator' have permission to change the status of content to 'Approved'.
-    ReadytoPublish | The contents with 'ReadytoPublish' state can be published. Only the 'Project Manager' and the 'Administrator' have permission to change the state of contents to 'ReadytoPublish'. Then the contents can be published or translated. This decision falls on the Web Team.
+Draft	| Content with this status can be modified by its author (Editor), Review Manager user or by the Administrator. This is the initial status for each content introduced in the system, and the previous status to 'FinalDraft'.
+FinalDraft	| The Editor in charge of the content, after modify it as considers, changes the status to 'FinalDraft'. The 'Review Manager' could then review it.
+ToBeReviewed | Content with this status is ready to be reviewed by the Project Manager. Only the 'Review Manager' and the 'Administrator' have permissions to change the status of content to 'ToBeReviewed'.
+ToBeApproved | Content with this status is ready to be reviewed by the Heads of Unit and/or the director, in the order specified by the Review Manager. As final step, the con-tent results 'Approved' or 'Rejected'.
+Rejected | Rejected contents must be checked by the Project Manager. He/she decides if she can implement the required suggestions or if the changes must be implemented or reviewed by the Editor. In this case, the content status is set to 'FinalDraft', and the webteam liaises with the editor. <br/>Only the 'Final Approver' has permission to change the status of content to 'Rejected'.
+Approved | The contents with 'Approved' status are ready to be reviewed by the Project Manager again. The PM decides if the content can go on the workflow (in this case the state of the content is 'Ready-ToPublish'). <br/>Only the 'Final Approver' and the 'Administrator' have permission to change the status of content to 'Approved'.
+ReadytoPublish | The contents with 'ReadytoPublish' state can be published. Only the 'Project Manager' and the 'Administrator' have permission to change the state of contents to 'ReadytoPublish'. Then the contents can be published or translated. This decision falls on the Web Team.
+
 #### Workflow
 
 In the first diagram below the general content management workflow is shown.There are several steps that could be skipped, as it is reflected in the workflow.
@@ -233,18 +235,19 @@ In the first diagram below the general content management workflow is shown.Ther
         **Figure 2 - Detailed Content Management Workflow**
 
 #### Brief steps description
+
 Step	| Role	| Description
 --------|-------|-------------
-    1|Editor|Introduces a new content in the website. The status of the content is 'Draft'.
+1|Editor|Introduces a new content in the website. The status of the content is 'Draft'.
 2|Editor|Edit the content and modifies it (optional).
-    3|Editor|Set the status of the content to 'Final Draft'. From this moment she/he can-not modify it until the content is in 'Draft' status again.
-    4|Review Manager<br/>(Web Team)|Reviews the introduced content. She/he can:<br/>Accept the content. The workflow carries on step 5.<br/>Reject the content. Thus, the status of the content is set to 'Draft'.<br/>The workflow remains step 2.<br/><br/>In both cases, comments about the content can be introduced and a new version generated.
-    5|Review Manager<br/>(Web Team)|The user define:<br/>The final list of reviewers for the content. The system proposes a default list of reviewers and the user could select all of them, or change any of them (adding or deleting) and the proposed order.<br/>If the review process is needed or not. In a positive case the content status is set to 'ToBeReviewed' and the workflow goes on step 6. A notification is sent to the PM.<br/>Establish the PM in charge of the review process. The system proposes the responsible of that content as PM, by default. The Review Manager can change it.<br/>If the approval process is needed or not. In a positive case the workflow remains on step 8. 
+3|Editor|Set the status of the content to 'Final Draft'. From this moment she/he can-not modify it until the content is in 'Draft' status again.
+4|Review Manager<br/>(Web Team)|Reviews the introduced content. She/he can:<br/>Accept the content. The workflow carries on step 5.<br/>Reject the content. Thus, the status of the content is set to 'Draft'.<br/>The workflow remains step 2.<br/><br/>In both cases, comments about the content can be introduced and a new version generated.
+5|Review Manager<br/>(Web Team)|The user define:<br/>The final list of reviewers for the content. The system proposes a default list of reviewers and the user could select all of them, or change any of them (adding or deleting) and the proposed order.<br/>If the review process is needed or not. In a positive case the content status is set to 'ToBeReviewed' and the workflow goes on step 6. A notification is sent to the PM.<br/>Establish the PM in charge of the review process. The system proposes the responsible of that content as PM, by default. The Review Manager can change it.<br/>If the approval process is needed or not. In a positive case the workflow remains on step 8. 
 6|Project Manager|Views and edits the content.<br/>PM introduces comments (optional).
-    7|Project Manager|Validates the content:<br/>If the content is approved and the approval process is going to take place, the status is set to 'ToBeApproved'. A notification is sent to the next re-viewer (Approver I) and the workflow goes on step 8.<br/>If the content is approved but the approval process is not going to take place, the workflow goes on step 10.<br/>If the content is not approved, the status is set to 'Final Draft' and the    workflow remains on step 4.
+7|Project Manager|Validates the content:<br/>If the content is approved and the approval process is going to take place, the status is set to 'ToBeApproved'. A notification is sent to the next re-viewer (Approver I) and the workflow goes on step 8.<br/>If the content is approved but the approval process is not going to take place, the workflow goes on step 10.<br/>If the content is not approved, the status is set to 'Final Draft' and the    workflow remains on step 4.
 8|Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>This step is repeated as many times as approvers have been defined by the Review Manager until the last one, who is in charge of the final validation of the content.
-    9|Last Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>The user validates the content:<br/>If the content is validated, the status is set to 'Approved' and the workflows remains with step 10 <br/>If the content is not validated, the status is set to 'Rejected' and the work-flows goes on step 6. <br/>In both cases a notification is send to the 'PM'.
-    10|Project Manager|The approvers may request some changes or corrections, that is why the PM has to re-approve the contents. <br/>If the PM considers the content can remain with the workflow she/he sets the status to 'ReadyToPublish' and the workflow goes on step 11.<br/>If the PM rejects the content, the workflow goes back to step 4.
+9|Last Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>The user validates the content:<br/>If the content is validated, the status is set to 'Approved' and the workflows remains with step 10 <br/>If the content is not validated, the status is set to 'Rejected' and the work-flows goes on step 6. <br/>In both cases a notification is send to the 'PM'.
+10|Project Manager|The approvers may request some changes or corrections, that is why the PM has to re-approve the contents. <br/>If the PM considers the content can remain with the workflow she/he sets the status to 'ReadyToPublish' and the workflow goes on step 11.<br/>If the PM rejects the content, the workflow goes back to step 4.
 11|Web Team|The Web Team decides if the content is published or translated
     
 * ### Our solutions and specific practices
