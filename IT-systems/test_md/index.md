@@ -25,8 +25,8 @@ HWC18| Healthy Workplaces Campaign (2018-2019)
 
 
 ## Organisation of repository
-* ### Repository Layout
-    Breakdown for what each directory/file is used for. See also readme inside directories.
+- ### Repository Layout
+Breakdown for what each directory/file is used for. See also readme inside directories.
     
 * [conf](https://github.com/EU-OSHA/osha-website/tree/master/conf)
 * Project specific configuration files
@@ -51,7 +51,7 @@ HWC18| Healthy Workplaces Campaign (2018-2019)
 * [sites/all/themes/osha_frontend](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/themes/osha_frontend)
 * Project specific frontend theme
      
-* ### Custom modules
+- ### Custom modules
 
 **All custom modules divided into 3 groups:**
 
@@ -127,7 +127,7 @@ It is possible to use module from content type and helper groups in other projec
 
 ## Technical strategy and chosen solutions
 
-* ### General versioning and release approach
+- ### General versioning and release approach
 
 #### Branches
 
@@ -150,14 +150,14 @@ Summary:
 * New production release recommended tag format: `YYYY-mm-dd_prod`. Title format: Jira ticket id + prod release.   
 * New tag will be used in production deployment.    
 
-* ### Multilinguality
+- ### Multilinguality
  (there is a lot of relevant information to be mentioned here)
-* ### Translation Management Tools
+- ### Translation Management Tools
 * #### Translation workflow
     * Module page - https://www.drupal.org/project/tmgmt
     * FAQs: https://www.drupal.org/node/1547632
 
-* ### Content management workflow
+- ### Content management workflow
     In short, an editor can add information to the website, a reviewer can check it, and a project manager/administrator can publish it. 
     Each user has a work list with the items he/she has permissions for, and a filter to search for any piece of information.    
 
@@ -167,7 +167,7 @@ Summary:
     
     **Editor** 
     
-    Users with the `Editor` role will be allowed to:    
+    Users with the 'Editor' role will be allowed to:    
     * Initiate the publish process for a content.
     * Create new contents belonging to assigned section.
     * Edit and modify contents with 'Draft' state introduced by herself.
@@ -177,7 +177,7 @@ Summary:
 
     **Review Manager (Web Team)**
     
-    Users with the `Review Manager` role will be allowed to:
+    Users with the 'Review Manager' role will be allowed to:
     * Approve or reject contents before the PM performs the corresponding review.
     * Edit and modify contents, belonging to assigned section.
     * View the status of content during the whole review process.
@@ -190,7 +190,7 @@ Summary:
     
     **Project Manager**
     
-    Users with the `Project Manager` role will be allowed to:
+    Users with the 'Project Manager' role will be allowed to:
     * Set the content state to 'ToBeApproved', if the content requires approval, 'Ready to publish', or to 'FinalDraft' to be redrafted again.
     * Create a content version and introduce comments. The Project Manager is in charge of a specific section (or several). S/he could only review the content related to that section or sections.
     * Be notified when content is approved or rejected by the approvers.
@@ -199,14 +199,14 @@ Summary:
     
     **Approver/Final Approver**
     
-    Users with the `Approver` role will be allowed to:
+    Users with the 'Approver' role will be allowed to:
     * Create a content version and introduce comments, only with the contents that have been assigned to her/him.
-    Users with the `Final Approver` role will be allowed to:
+    Users with the 'Final Approver' role will be allowed to:
     * Approve or reject contents, based on the comments received, only with the con-tents that have been assigned to her/him.
     
     **Administrator**
     
-    Users with the `Administrator` role will be allowed to any of the above plus:
+    Users with the 'Administrator' role will be allowed to any of the above plus:
     * Specify the list of possible approvers.
     * Change any status of the workflow
     * Change the people involved in the workflow in any status
@@ -228,11 +228,11 @@ ReadytoPublish | The contents with 'ReadytoPublish' state can be published. Only
 In the first diagram below the general content management workflow is shown.There are several steps that could be skipped, as it is reflected in the workflow.
 <br/>The second diagram contains the detailed and complete content management workflow, including the content statuses and participant actors.
 
->![Simple Content Management Workflow](https://scovitin-vsevolod.github.io/test_md/images/CMF-1.png)
-    **Figure 1 - Simple Content Management Workflow**
+![Simple Content Management Workflow](https://scovitin-vsevolod.github.io/test_md/images/CMF-1.png)
+**Figure 1 - Simple Content Management Workflow**
      
->![Detailed Content Management Workflow](https://scovitin-vsevolod.github.io/test_md/images/CMF-2.png)
-    **Figure 2 - Detailed Content Management Workflow**
+![Detailed Content Management Workflow](https://scovitin-vsevolod.github.io/test_md/images/CMF-2.png)
+**Figure 2 - Detailed Content Management Workflow**
 
 #### Brief steps description
 
@@ -241,16 +241,16 @@ Step	| Role	| Description
 1|Editor|Introduces a new content in the website. The status of the content is 'Draft'.
 2|Editor|Edit the content and modifies it (optional).
 3|Editor|Set the status of the content to 'Final Draft'. From this moment she/he can-not modify it until the content is in 'Draft' status again.
-4|Review Manager<br/>(Web Team)|Reviews the introduced content. She/he can:<br/>Accept the content. The workflow carries on step 5.<br/>Reject the content. Thus, the status of the content is set to 'Draft'.<br/>The workflow remains step 2.<br/><br/>In both cases, comments about the content can be introduced and a new version generated.
-5|Review Manager<br/>(Web Team)|The user define:<br/>The final list of reviewers for the content. The system proposes a default list of reviewers and the user could select all of them, or change any of them (adding or deleting) and the proposed order.<br/>If the review process is needed or not. In a positive case the content status is set to 'ToBeReviewed' and the workflow goes on step 6. A notification is sent to the PM.<br/>Establish the PM in charge of the review process. The system proposes the responsible of that content as PM, by default. The Review Manager can change it.<br/>If the approval process is needed or not. In a positive case the workflow remains on step 8. 
+4|Review Manager<br/>(Web Team)|Reviews the introduced content. She/he can:<br/> Accept the content. The workflow carries on step 5.<br/> Reject the content. Thus, the status of the content is set to 'Draft'.<br/>The workflow remains step 2.<br/>In both cases, comments about the content can be introduced and a new version generated.
+5|Review Manager<br/>(Web Team)|The user define:<br/><br/>&nbsp;The final list of reviewers for the content. The system proposes a default list of reviewers and the user could select all of them, or change any of them (adding or deleting) and the proposed order.<br/><br/>If the review process is needed or not. In a positive case the content status is set to 'ToBeReviewed' and the workflow goes on step 6. A notification is sent to the PM.<br/><br/>Establish the PM in charge of the review process. The system proposes the responsible of that content as PM, by default. The Review Manager can change it.<br/><br/>If the approval process is needed or not. In a positive case the workflow remains on step 8. 
 6|Project Manager|Views and edits the content.<br/>PM introduces comments (optional).
-7|Project Manager|Validates the content:<br/>If the content is approved and the approval process is going to take place, the status is set to 'ToBeApproved'. A notification is sent to the next re-viewer (Approver I) and the workflow goes on step 8.<br/>If the content is approved but the approval process is not going to take place, the workflow goes on step 10.<br/>If the content is not approved, the status is set to 'Final Draft' and the    workflow remains on step 4.
+7|Project Manager|Validates the content:<br/><br/>&nbsp;If the content is approved and the approval process is going to take place, the status is set to 'ToBeApproved'. A notification is sent to the next re-viewer (Approver I) and the workflow goes on step 8.<br/><br/>If the content is approved but the approval process is not going to take place, the workflow goes on step 10.<br/><br/>If the content is not approved, the status is set to 'Final Draft' and the workflow remains on step 4.
 8|Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>This step is repeated as many times as approvers have been defined by the Review Manager until the last one, who is in charge of the final validation of the content.
-9|Last Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>The user validates the content:<br/>If the content is validated, the status is set to 'Approved' and the workflows remains with step 10 <br/>If the content is not validated, the status is set to 'Rejected' and the work-flows goes on step 6. <br/>In both cases a notification is send to the 'PM'.
+9|Last Approver|Views and edits the content. He/she introduces comments and generates a new version of the content.<br/>The user validates the content:<br/><br/>If the content is validated, the status is set to 'Approved' and the workflows remains with step 10 <br/><br/>If the content is not validated, the status is set to 'Rejected' and the work-flows goes on step 6. <br/><br/>In both cases a notification is send to the 'PM'.
 10|Project Manager|The approvers may request some changes or corrections, that is why the PM has to re-approve the contents. <br/>If the PM considers the content can remain with the workflow she/he sets the status to 'ReadyToPublish' and the workflow goes on step 11.<br/>If the PM rejects the content, the workflow goes back to step 4.
 11|Web Team|The Web Team decides if the content is published or translated
     
-* ### Our solutions and specific practices
+### Our solutions and specific practices
  
 * #### Common type of pages and requirements
  (e.g. 'featured' short list of news, carousels, detail pages, EU-captcha, newsletter, social media, blocks and panels)
@@ -267,9 +267,9 @@ Step	| Role	| Description
     * Content type module uses features module to make possible automated import and export of configuration.
     * Any configuration changes related to module updating in module `module_name_update_70XX` hook using `features_revert` or `features_revert_module` functions   
 
-* #### - Special considerations when a cache server (Varnish) is used in front of Drupal
+- #### - Special considerations when a cache server (Varnish) is used in front of Drupal
 
-* ### Data exchange with other websites
+### Data exchange with other websites
 
 #### Export content:
 
@@ -297,90 +297,90 @@ HWC | Events
 OiRA | News
 OSHwiki | Wiki page
 
-* ### How to set-up a development and a staging environment
+### How to set-up a development and a staging environment
 
-    #### Pre-requisites
+#### Pre-requisites
     
-    1. Install Drush (7.0-dev):
+1. Install Drush (7.0-dev):
+
+   * Install composer (```curl -sS https://getcomposer.org/installer | php```) somwhere in the PATH, and rename ```composer.phar``` to ```composer```.
+   * Clone drush repo in your working directory (i.e. ~/Work) - ```git clone git@github.com:drush-ops/drush.git ~/Work/drush```)
+   * ```cd ~/Work/drush```
+   * ```composer install``` - install drush w/composer
+   * ```sudo ln -s ~/Work/drush/drush /usr/bin/``` - add to PATH
+
+2. Virtual host for your Drupal instance that points to the docroot/ directory from this repo
     
-       * Install composer (```curl -sS https://getcomposer.org/installer | php```) somwhere in the PATH, and rename ```composer.phar``` to ```composer```.
-       * Clone drush repo in your working directory (i.e. ~/Work) - ```git clone git@github.com:drush-ops/drush.git ~/Work/drush```)
-       * ```cd ~/Work/drush```
-       * ```composer install``` - install drush w/composer
-       * ```sudo ln -s ~/Work/drush/drush /usr/bin/``` - add to PATH
+#### Quick start
     
-    2. Virtual host for your Drupal instance that points to the docroot/ directory from this repo
-    
-    #### Quick start
-    
-    1. Copy [conf/config.template.json](https://github.com/EU-OSHA/osha-website/blob/master/conf/config.template.json)
-    to `config.json` and customize to suit your environment
-    
-        ```json
-        {
-            "db" : {
-                "host": "database server ip or name, ex: localhost",
-                "username" : "database username, ex. user1",
-                "password" : "database password, ex. password1",
-                "port": 3306,
-                "database" : "database name, ex. osha_test",
-                "root_username": "root",
-                "root_password": "s3cr3t"
-            },
-            "admin" : {
-                "username": "admin",
-                "password": "admin",
-                "email": "your.email@domain.org"
-            },
-            "uri": "http://you-vh.localhost",
-            "solr_server": {
-                "name": "Apache Solr server",
-                "enabled": 1,
-                "description": "",
-                "scheme": "http",
-                "host": "localhost",
-                "port": 8080,
-                "path": "/solr",
-                "http_user": "",
-                "http_password": "",
-                "excerpt": 1,
-                "retrieve_data": 1,
-                "highlight_data": 1,
-                "skip_schema_check": null,
-                "solr_version": "",
-                "http_method": "AUTO",
-                "apachesolr_read_only": null,
-                "apachesolr_direct_commit": 1,
-                "apachesolr_soft_commit": 1
-            },
-            "variables": {
-                "site_mail": "your.email@domain.org",
-                "site_name": "OSHA",
-                "osha_data_dir": "/home/osha/data",
-                "file_temporary_path": "/tmp"
-            }
+1. Copy [conf/config.template.json](https://github.com/EU-OSHA/osha-website/blob/master/conf/config.template.json)
+to `config.json` and customize to suit your environment
+
+    ```json
+    {
+        "db" : {
+            "host": "database server ip or name, ex: localhost",
+            "username" : "database username, ex. user1",
+            "password" : "database password, ex. password1",
+            "port": 3306,
+            "database" : "database name, ex. osha_test",
+            "root_username": "root",
+            "root_password": "s3cr3t"
+        },
+        "admin" : {
+            "username": "admin",
+            "password": "admin",
+            "email": "your.email@domain.org"
+        },
+        "uri": "http://you-vh.localhost",
+        "solr_server": {
+            "name": "Apache Solr server",
+            "enabled": 1,
+            "description": "",
+            "scheme": "http",
+            "host": "localhost",
+            "port": 8080,
+            "path": "/solr",
+            "http_user": "",
+            "http_password": "",
+            "excerpt": 1,
+            "retrieve_data": 1,
+            "highlight_data": 1,
+            "skip_schema_check": null,
+            "solr_version": "",
+            "http_method": "AUTO",
+            "apachesolr_read_only": null,
+            "apachesolr_direct_commit": 1,
+            "apachesolr_soft_commit": 1
+        },
+        "variables": {
+            "site_mail": "your.email@domain.org",
+            "site_name": "OSHA",
+            "osha_data_dir": "/home/osha/data",
+            "file_temporary_path": "/tmp"
         }
-        ```
-    
-    2. Copy the following code into `~/.drush/drushrc.php` (create if necessary)
-    
-        ```php
-            <?php
-                $repo_dir = drush_get_option('root') ? drush_get_option('root') : getcwd();
-                $success = drush_shell_exec('cd %s && git rev-parse --show-toplevel 2> ' . drush_bit_bucket(), $repo_dir);
-                if ($success) {
-                    $output = drush_shell_exec_output();
-                    $repo = $output[0];
-                    $options['config'] = $repo . '/drush/drushrc.php';
-                    $options['include'] = $repo . '/drush/commands';
-                    $options['alias-path'] = $repo . '/drush/aliases';
-                }
-        ```
-    
-    3. Create file drush/aliases/aliases.local.php and define your drush local alias (see example in drush/aliases/osha.aliases.drushrc.php)
-      Redefine your osha.staging.sync alias as you need. Default one might not be accessible to you.
-    
-    4. Run install_from_staging.sh
+    }
+    ```
+
+2. Copy the following code into `~/.drush/drushrc.php` (create if necessary)
+
+    ```php
+        <?php
+            $repo_dir = drush_get_option('root') ? drush_get_option('root') : getcwd();
+            $success = drush_shell_exec('cd %s && git rev-parse --show-toplevel 2> ' . drush_bit_bucket(), $repo_dir);
+            if ($success) {
+                $output = drush_shell_exec_output();
+                $repo = $output[0];
+                $options['config'] = $repo . '/drush/drushrc.php';
+                $options['include'] = $repo . '/drush/commands';
+                $options['alias-path'] = $repo . '/drush/aliases';
+            }
+    ```
+
+3. Create file drush/aliases/aliases.local.php and define your drush local alias (see example in drush/aliases/osha.aliases.drushrc.php)
+  Redefine your osha.staging.sync alias as you need. Default one might not be accessible to you.
+
+4. Run install_from_staging.sh
     
 #### Updating an existing instance
     
