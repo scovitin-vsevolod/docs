@@ -1,93 +1,75 @@
 ---
-title: TEST
+title: OSHA
 ---
-TEST
+OSHA
 ====
 
 <small class="github">[test_md](https://github.com/scovitin-vsevolod/test_md)</small>
 
 
-test - text
+Build scripts and source code for the OSHA project
 
-Group                     | Domain          | First Appearance
----|---|---  
-ShinRa                    | Mako Reactors long text  | FFVII
-long text check <br >long text check | MogNet          | FFIII
+[![Code Climate](https://codeclimate.com/github/EU-OSHA/osha-website/badges/gpa.svg)](https://codeclimate.com/github/EU-OSHA/osha-website)
 
-test - text
-
-Group                     | Domain          | First Appearance
----|---|---  
-ShinRa                    | Mako Reactors long text  | FFVII
-short text | long text check <br >long text check          | FFIII
-
-test text
-test text
-test text
-test text
-test text
-test text
+### Definitions, acronyms and abbreviations
+Term	| Description
+--------|--------------------------------------------------
+EU-OSHA	| European Agency for Safety and Health at Work
+CdT	| Translation Centre for the Bodies of the European Union
+FOP	| National Focal Point
+NCW	| New Corporate Website
+HWC	| Healthy Workplaces Campaign
+CMW	| Content Management Workflow
+HWC18| Healthy Workplaces Campaign (2018-2019)
 
 
+## 1. Organisation of repository
+* ### Repository Layout
+    Breakdown for what each directory/file is used for. See also readme inside directories.
+    
+    * [conf](https://github.com/EU-OSHA/osha-website/tree/master/conf)
+     * Project specific configuration files
+    * [docroot](https://github.com/EU-OSHA/osha-website/tree/master/docroot)
+     * Drupal root directory
+    * [drush](https://github.com/EU-OSHA/osha-website/tree/master/drush)
+     * Contains project specific drush commands, aliases, and configurations.
+    * [results](https://github.com/EU-OSHA/osha-website/tree/master/results)
+     * This directory is just used to export test results to. A good example of this
+       is when running drush test-run with the --xml option. You can export the xml
+       to this directory for parsing by external tools.
+    * [scripts](https://github.com/EU-OSHA/osha-website/tree/master/scripts)
+     * A directory for project-specific scripts.
+    * [test](https://github.com/EU-OSHA/osha-website/tree/master/tests)
+     * A directory for external tests. This is great for non drupal specific tests
+     such as selenium, qunit, casperjs.
+    * [.gitignore](https://github.com/EU-OSHA/osha-website/blob/master/.gitignore)
+     * Contains the a list of the most common excluded files.
+    * [modules/contrib](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/modules/contrib)
+     * A directory for contributed modules.
+    * [modules/osha](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/modules/osha)
+     * Project specific custom module
+    * [sites/all/themes/osha_admin](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/themes/osha_admin)
+     * Project specific backend theme
+    * [sites/all/themes/osha_frontend](https://github.com/EU-OSHA/osha-website/tree/master/docroot/sites/all/themes/osha_frontend)
+     * Project specific frontend theme
+     
+* ### Custom modules
 
-Group                     | Domain          | First Appearance
----|---|---  
-ShinRa                    | Mako Reactors long text  | FFVII
-long text check long text check | MogNet          | FFIII
-Vana'diel <br>Chocobo Society | Text1Text1 Text2Text2 <br>Text3Text3 Text4Text4 Text5Text5 | FFXI:TOAU
-
-test text
-
-Group                     | Domain          | First Appearance
----|---|---  
-TEXT                    | Mako Reactors   | FFVII
-Moogles                   | MogNet          | FFIII
-Vana'diel Chocobo <br>Society | Chocobo Raising | FFXI:TOAU
-
-text 1
-
-<table>
-<thead>
-<tr>
-<th>Group</th>
-<th>Domain</th>
-<th>First Appearance</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ShinRa</td>
-<td>Mako Reactors</td>
-<td>FFVII</td>
-</tr>
-<tr>
-<td>Moogles</td>
-<td>MogNet</td>
-<td>FFIII</td>
-</tr>
-<tr>
-<td>Vana'diel Chocobo Society</td>
-<td>Chocobo Raising</td>
-<td>FFXI:TOAU</td>
-</tr></tbody></table>
-
-text
-
-<table><thead><tr><td>aaaa<td></tr></thead></table>
-
-text
-
-<table><tr>
-<td>bbb<td>
-</tr></table>
-
-text
-
-<table><tr>
-<td>ccc<td>
-<td>ddd<td>
-</tr></table>
-
-
-
+    **All custom modules divided into 3 groups:**
+    
+    #### Base modules
+    
+    Name | Description
+    ---------------------| --------------------------
+    osha_breadcrumbs | Breadcrumbs rules
+    osha_authentication | LDAP authentication support
+    osha_blocks | Content Blocks
+    osha_content | No Translation functionality
+    osha_menu | Main and Footer Menus
+    osha_migration | Migrate data from the old website  
+    osha_search | Search customizations
+    osha_sitemap | Sitemap for xmlsitemap
+    osha_sites_migration | Migrating content from other OSHA websites
+    osha_taxonomies | Project Specific Taxonomies
+    osha_workflow | Custom Workflow Moderation
 [Edit this page](https://github.com/scovitin-vsevolod/test_md/edit/master/readme.md)
