@@ -12,7 +12,7 @@ ShinRa | Mako Reactors long text | FFVII
 long text check |  |  
 long text check | MogNet | FFIII  
   
-test text
+test - text
 
 Group | Domain | First Appearance  
 ---|---|---  
@@ -20,7 +20,15 @@ ShinRa | Mako Reactors long text | FFVII
 long text check  
 long text check | MogNet | FFIII  
   
-test text
+test - text
+
+Group | Domain | First Appearance  
+---|---|---  
+ShinRa | Mako Reactors long text | FFVII  
+short text | long text check  
+long text check | FFIII  
+  
+test text test text test text test text test text test text
 
 Group | Domain | First Appearance  
 ---|---|---  
