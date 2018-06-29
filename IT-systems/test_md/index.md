@@ -382,22 +382,21 @@ OSHwiki | Wiki page
     
     4. Run install_from_staging.sh
     
-    #### Updating an existing instance
+#### Updating an existing instance
     
-    To update an existing instance without reinstalling (and loosing existing content):
-    
-    * Update the code repository from Github (`git pull [origin develop]`)
-    * Run `drush updb -y` which reverts all features in module updates
+To update an existing instance without reinstalling (and loosing existing content):
+- Update the code repository from Github (`git pull [origin develop]`)
+- Run `drush updb -y` which reverts all features in module updates
         
-    #### Running tests
+#### Running tests
     
-    You can use the test.sh script to launch the set of tests designed for the OSHA project.
+You can use the test.sh script to launch the set of tests designed for the OSHA project.
     
-    Command usage:
+Command usage:
     
-    * `./test.sh` - Runs all tests from the OSHA group
-    * `./test.sh ClassNameTest` - Runs all the test methods from the ClassNameTest test class
-    * `./test.sh ClassNameTest testName1,testName2` - Runs only the two tests from the entire class
+- `./test.sh` - Runs all tests from the OSHA group
+- `./test.sh ClassNameTest` - Runs all the test methods from the ClassNameTest test class
+- `./test.sh ClassNameTest testName1,testName2` - Runs only the two tests from the entire class
     
     
     -- edw
