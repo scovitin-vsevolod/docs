@@ -80,9 +80,6 @@
     text: Package Information
     url: !!python/unicode '/IT-systems/osha.whoswho'
   - source: generated
-    text: TEST
-    url: /IT-systems/test_md
-  - source: generated
     text: URL
     url: !!python/unicode '/IT-systems/hwc-splashpage'
   - source: generated
